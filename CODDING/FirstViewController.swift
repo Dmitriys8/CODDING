@@ -20,6 +20,11 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBOutlet weak var TextField: UITextField!
+    
+    @IBAction func writeToTextFIeld(_ sender: UIButton) {
+        
+        TextField.text = "\(sender.title(for: .selected)!) " + "button pressed"
+    }
 }
 
