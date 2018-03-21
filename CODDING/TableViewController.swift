@@ -2,15 +2,14 @@
 //  TableViewController.swift
 //  CODDING
 //
-//  Created by Дмитрий Яковлев on 14.03.2018.
+//  Created by Дмитрий Яковлев on 21/03/2018.
 //  Copyright © 2018 Дмитрий Яковлев. All rights reserved.
 //
 
 import UIKit
 
 class TableViewController: UITableViewController {
-    
-    let cellIdentifier = "CustomTableViewCell"
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -11,7 +11,7 @@ import UIKit
 class CustomTableViewCell: UITableViewCell {
 
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var `switch`: UISwitch!
+    @IBOutlet weak var 'switch`: UISwitch!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

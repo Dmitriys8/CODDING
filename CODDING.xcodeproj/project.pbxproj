@@ -16,10 +16,10 @@
 		181C593A2050049F00CB122D /* CODDINGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C59392050049F00CB122D /* CODDINGTests.swift */; };
 		181C59452050049F00CB122D /* CODDINGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C59442050049F00CB122D /* CODDINGUITests.swift */; };
 		18FF2C89205044E80014260D /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF2C88205044E80014260D /* ThirdViewController.swift */; };
+		A1CD5DDE2062ACF600557EF3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CD5DDD2062ACF600557EF3 /* TableViewController.swift */; };
 		A1F2A459205980F4001670D8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F2A457205980F4001670D8 /* CustomTableViewCell.swift */; };
 		A1F2A45A205980F4001670D8 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1F2A458205980F4001670D8 /* CustomTableViewCell.xib */; };
 		A1F2A45C2059824C001670D8 /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F2A45B2059824C001670D8 /* CellModel.swift */; };
-		A1F2A45E205982D8001670D8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F2A45D205982D8001670D8 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		181C59442050049F00CB122D /* CODDINGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CODDINGUITests.swift; sourceTree = "<group>"; };
 		181C59462050049F00CB122D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18FF2C88205044E80014260D /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		A1CD5DDD2062ACF600557EF3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		A1F2A457205980F4001670D8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		A1F2A458205980F4001670D8 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		A1F2A45B2059824C001670D8 /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
-		A1F2A45D205982D8001670D8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +111,11 @@
 			isa = PBXGroup;
 			children = (
 				181C59222050049F00CB122D /* AppDelegate.swift */,
+				A1CD5DDD2062ACF600557EF3 /* TableViewController.swift */,
 				181C59242050049F00CB122D /* FirstViewController.swift */,
 				181C59262050049F00CB122D /* SecondViewController.swift */,
 				A1F2A457205980F4001670D8 /* CustomTableViewCell.swift */,
 				A1F2A458205980F4001670D8 /* CustomTableViewCell.xib */,
-				A1F2A45D205982D8001670D8 /* TableViewController.swift */,
 				18FF2C88205044E80014260D /* ThirdViewController.swift */,
 				A1F2A45B2059824C001670D8 /* CellModel.swift */,
 				181C59282050049F00CB122D /* Main.storyboard */,
@@ -279,7 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F2A459205980F4001670D8 /* CustomTableViewCell.swift in Sources */,
-				A1F2A45E205982D8001670D8 /* TableViewController.swift in Sources */,
+				A1CD5DDE2062ACF600557EF3 /* TableViewController.swift in Sources */,
 				181C59272050049F00CB122D /* SecondViewController.swift in Sources */,
 				181C59232050049F00CB122D /* AppDelegate.swift in Sources */,
 				18FF2C89205044E80014260D /* ThirdViewController.swift in Sources */,
